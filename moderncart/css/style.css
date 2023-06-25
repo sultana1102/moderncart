@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+#main
+{
+    width: 1200px;
+    border: 1px solid black;
+    margin: 0px auto;
+    min-height: 1200px;
+    background-color: brown;
+}
+#header
+{
+    height: 150px;
+    border-bottom:1px solid black ;
+    background-color: blanchedalmond;
+    
+}
+#leftlogo
+{
+    height: 150px;
+    width: 200px;
+    float: left;
+    background-color: blue;
+
+}
+#rightlogo
+{
+    height: 150px;
+    width: 200px;
+    float: left;
+    background-color:blueviolet;
+}
+#tittle
+{
+    width: 800px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    background-color:blanchedalmond;
+}
+#tittle h1
+{
+    font-size: 80px;
+    color: blueviolet;
+    text-shadow: 3px 3px 10px brown;
+   margin: -10px;
+}
+#tittle h3
+{
+   letter-spacing: 5px;
+   word-spacing: 25px;
+   color: coral;
+   font-size: 24px;
+   margin: -20px;
+}
+#leftlogo img,#rightlogo img
+{
+   height: 100%;
+   width: 100%;
+}
+#footer
+{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height:50px;
+}
+
+
+#content
+{
+    
+   min-height:1000px;
+   margin: 0px;
+    background-color:rgb(165, 127, 90);
+}
+/*#searchbox
+{
+    margin: -10px auto;
+    height: 30px;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 10px;
+    line-height: 30px;
+}*/
+#searchbox input[type="text"]
+{ 
+     margin: 10px 15px;
+    height: 30px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+#searchbox input[type="submit"]
+{
+    height: 30px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+#register
+{
+    text-align: right;
+}
+
+#register a
+{
+    color:rgb(109, 11, 109);
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px;
+}
+#newuserform
+{
+    min-height: 700px;
+    width: 600px;
+    background-color: aquamarine;
+    margin:40px auto;
+    font-size: 22px;
+    border: 5px solid lightsalmon;
+    border-radius: 0px 20px;
+    box-shadow: -3px -4px 20px rgb(109, 11, 109);
+}
+
+#newuserform label
+{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+#newuserform input[type="text"],#newuserform input[type="password"],
+#newuserform input[type="date"],#newuserform textarea,#newuserform select,
+#newuserform input[type="file"]
+{
+    width: 90%;
+    height: 40px;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+#button input
+{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    margin:10px 70px;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+ }
+ #message
+ {
+     background-color:#00214E;
+     color:red;
+    line-height: 40px;
+     height: 40px;
+     text-align: center;
+   font-size: 20px;
+    
+ }
+ #userinfo 
+{
+    background-color:#00214E;
+    color:white; 
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+#userinfo  a 
+{
+    color:yellow;
+}
+#adminarea
+{
+    height: 1000px;
+    width: 100%;
+    
+}
+#leftadmin
+{
+    width:195px;
+    height:1000px;
+    background-color: aquamarine;
+    display: inline-block;
+    vertical-align: top;
+}
+#adminmenu
+{
+    list-style: none;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+#adminmenu li
+{
+    height: 40px;
+    line-height: 40px;
+}
+#adminmenu a
+{
+  color:chocolate;
+  padding:10px;
+  text-decoration: none;
+}
+#rightadmin
+{
+    width:1000px ;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+/* #catarea
+{
+    padding: 5px;
+} */
+.category
+{
+    width: 200px;
+    height: 200px;
+    border: 3px solid lightpink;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.category a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.category img
+{
+   margin-top: -15px; 
+}
+
+.item
+{
+    
+    width: 200px;
+    min-height:330px;
+    border: 3px solid lightpink;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color:darkorange;
+    vertical-align: top;
+    
+}
+.buybutton
+{
+    width: 100px;
+    height: 40px;
+    background-color:lightyellow;
+    margin: 10px auto;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.buybutton a
+{
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+    color: black;
+}
+.buybutton a:hover
+{
+    background-color: black;
+    color:whitesmoke ;
+}
+ #list table
+{
+    min-height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 20px auto;
+    
+} 
+#orderplace
+{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: darkseagreen;
+    border: 2px solid black;
+    border-radius: 20px 0px;
+    margin: 20px auto;
+    line-height: 50px;
+}
+
+#orderplace a
+{
+  text-decoration: none;
+  font-size: 20px;
+  color:crimson;
+  display: block;
+}
+#orderplace a:hover
+{
+    border-radius: 20px 0px;
+    border: 2px solid yellowgreen;
+    background-color: crimson;
+    color:darkseagreen;
+}
+#newsarea
+{
+    height:100%;
+    width:800px;
+    margin: 10px auto;
+   }
+   #userarea
+   {
+       height: 100%;
+       width: 100%;
+       
+   }
+   #leftuser
+   {
+       width:195px;
+       height: 1000px;
+       background-color: aquamarine;
+       
+       display: inline-block;
+       vertical-align: top;
+   }
+   #usermenu
+   {
+       list-style: none;
+       padding: 20px;
+       font-size: 18px;
+       text-align: center;
+   }
+   #usermenu li
+   {
+       height: 40px;
+       line-height: 40px;
+   }
+   #usermenu a
+   {
+     color:chocolate;
+     padding:10px;
+   }
+   #rightuser
+   {
+       width:1000px ;
+       height: 100%;
+       display: inline-block;
+       vertical-align: top;
+   }
+   #cmpdtl
+   {
+    width:800px;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 18px;;
+   }
+   #replycomplain
+   {
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 30px;
+    background-color:chartreuse;
+    color: white;
+    font-size: 18px;
+ }
+
+   #replycomplain a
+   {
+        text-decoration: none;
+        display: block;
+   }
+#custlist
+{
+    /* margin: 40px 50px; */
+    height: 500px;
+    width: 1000px;
+    /* border: 2px solid rebeccapurple;
+    border-radius: 10px ; */
+}
+
+#custlist table
+{
+    border: 1px solid lightcoral;
+    border-radius: 10px;
+    color:lightgreen;
+    margin:40px auto ;
+}
+#orderstatus
+{
+    width:60%;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color:azure;
+    line-height: 30px;   
+}
+#admininbox table
+{
+    margin: 30px auto;
+    color:lavenderblush;
+    font-size: 18px;
+}
+#admininbox table th
+{
+    color:lime;
+}
+#admininbox table a
+{
+    text-decoration: none;
+}
+#custlist a
+{
+    text-decoration: none;
+}
+#userinbox table
+{
+    margin: 40px auto;
+}
+#addmoretocart 
+{
+    height: 200px;
+    width: 500px;
+    border:2px solid black;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: cadetblue;
+    color:darkslateblue;
+}
+#addmoretocart h2
+{
+    height: 40px;
+    width: 80%;
+    background-color: black;
+    margin: 0px auto;
+    color:red;
+    line-height: 40px;
+}
+#addmoretocart h4
+{
+    margin: 30px 100px;
+    font-size: 20px;
+    display: inline;
+    height: 30px;
+    width: 50px;
+    border: 1px solid black;
+    background-color:lightpink;
+}
+#addmoretocart h3
+{
+    margin: 40px auto;
+    font-size: 22px;
+}
+#button
+{
+    height: 50px;
+    width: 500px;
+    margin-top: 30px;
+}
+#button a{
+    text-decoration: none;
+}
+#iteminfo
+{
+    text-align: center;
+}
+#iteminfo table
+{
+    margin: 20px auto;
+    width: 600px;
+}
+#iteminfo a{
+text-decoration: none;
+}
+#bill
+{
+    text-align: center;
+    margin: 40px auto;
+}
+#bill a
+{
+    text-decoration: none;
+}
